@@ -1,6 +1,6 @@
 img {
-    width: 153px;
-    height: 105;
+    width: 173px;
+    height: 125;
 }
 
 body {
@@ -8,8 +8,8 @@ body {
 }
 
 
-.gray {
-    background-color: rgba(25, 0, 255, 0.684);
+.blue {
+    background-color: rgba(0, 8, 255, 0.163);
     color: white;
 }
 h2 {
@@ -21,4 +21,8 @@ h3 {
     background-color: gainsboro;
     color: white;
 
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.132);
 }
