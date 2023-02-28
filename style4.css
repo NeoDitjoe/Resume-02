@@ -6,3 +6,19 @@ img {
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+
+.gray {
+    background-color: rgba(25, 0, 255, 0.684);
+    color: white;
+}
+h2 {
+    background-color: gainsboro;
+    color: black;
+}
+
+h3 {
+    background-color: gainsboro;
+    color: white;
+
+}
