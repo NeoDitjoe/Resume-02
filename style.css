@@ -4,7 +4,8 @@ img {
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgba(128, 128, 128, 0.132);
 }
 
 
@@ -23,6 +24,3 @@ h3 {
 
 }
 
-body{
-    background-color: rgba(128, 128, 128, 0.132);
-}
