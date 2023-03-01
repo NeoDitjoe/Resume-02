@@ -6,12 +6,16 @@ img {
     width: 175px;
     height: 175px;
     border-radius: 100px;
+    border-width: 5px;
+    border-color: rgb(128, 126, 126);
+    border-style: solid;
     
     
 }
 
 header {
     text-align: center;
+    padding-top: 20px;
 }
 
 a {
