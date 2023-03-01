@@ -1,34 +1,64 @@
+*{
+    margin: 5px;
+}
+
 img {
-    width: 173px;
-    height: 125;
+    width: 175px;
+    height: 175px;
+    border-radius: 100px;
+    
+    
+}
+
+header {
+    text-align: center;
 }
 
 a {
     color: blue;
 }
 
+
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     background-color: rgba(128, 128, 128, 0.132);
+    background-color: ;
+    border:solid;
+    border-width: 4px;
+    border-color:rgb(90, 90, 90);
 }
 
 
 .blue {
     background-color: rgba(0, 8, 255, 0.163);
     color: white;
+    
+    
 }
 h2 {
     background-color: gainsboro;
     color: black;
+
 }
 
 h3 {
     background-color: gainsboro;
     color: white;
+    padding-left: 10px;
+    
+
 
 }
-
+h2{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 h1 {
     font-size: 50px;
+}
+
+p{
+    padding-left: 30px;
 }
 
