@@ -18,6 +18,10 @@ header {
     padding-top: 20px;
 }
 
+.doodle {
+    padding-left: 2px;
+}
+
 a {
     color: blue;
 }
