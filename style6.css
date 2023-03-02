@@ -20,12 +20,13 @@ header {
     padding-top: 20px;
 }
 
-.doodle {
+.intro {
     padding-left: 2px;
 }
 
 a {
     color: blue;
+    
 }
 
 
@@ -42,6 +43,7 @@ body {
 .blue {
     background-color: rgba(0, 8, 255, 0.163);
     color: white;
+    
    
     
 }
@@ -72,5 +74,3 @@ p{
     padding-left: 30px;
 }
 
-
-  
