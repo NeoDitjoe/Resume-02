@@ -35,7 +35,7 @@ a {
 
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(128, 128, 128, 0.132);
     background-color: ;
     border:solid;
@@ -88,8 +88,8 @@ p{
     left: 20px;
 }
 
-footer {
-    padding-right: ;
-    padding-top: 50px;
-    
+
+.last {
+    padding: 20px;
 }
+
