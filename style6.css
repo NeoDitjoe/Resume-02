@@ -9,10 +9,16 @@ img {
     border-width: 5px;
     border-color: rgb(128, 126, 126);
     border-style: solid;
+    position: relative;
+    top: 70px;
 }
 
 aside {
     margin-left: 100px;
+}
+
+.links {
+    margin-left: 800px;
 }
 
 header {
@@ -67,10 +73,33 @@ h2{
     margin-bottom: 20px;
 }
 h1 {
-    font-size: 50px;
+    font-size: 80px;
 }
 
 p{
     padding-left: 30px;
 }
 
+aside {
+    display: flex;
+    align-items: center;
+    
+}
+
+.Education { margin-right: 800px;
+    background-color: rgba(128, 128, 128, 0.379);
+    position: relative; left: 200px; top: 50px; 
+    
+    
+}
+
+.Experience {
+    margin-right: 800px;
+    background-color: rgba(0, 8, 255, 0.163);
+    position: relative; top: 10px; left: 720px;
+}
+
+.Skills {
+    margin-right: 800px;
+    background-color: rgba(141, 141, 141, 0.612);
+}
