@@ -2,6 +2,15 @@
     margin: 5px;
 }
 
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    top: 300px;
+}
+
+
 img {
     width: 275px;
     height: 275px;
@@ -9,19 +18,12 @@ img {
     border-width: 5px;
     border-color: rgb(128, 126, 126);
     border-style: solid;
-    position: relative; bottom: 300px; left: 100px;
-    margin-left: 17px;
-    margin-top: 60px;
-    
-    
+    position: relative; bottom: 200px; left: 100px;
+     
 }
 
-
-header {
-    text-align: center;
-    padding-top: 20px;
-    position: relative;
-    top: 300px;
+.links {
+    position: relative; top: 30px;
 }
 
 .intro {
@@ -53,15 +55,16 @@ body {
     
 }
 h2 {
-    background-color: gainsboro;
+    background-color: gainsboro; padding-left: 70px; padding-right: 70px;
     color: black;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 h3 {
-    background-color: gainsboro;
+    background-color: gainsboro; ;
     color: white;
     padding-left: 20px;
     
@@ -90,6 +93,5 @@ p{
 
 
 .last {
-    padding: 20px;
-}
 
+}
