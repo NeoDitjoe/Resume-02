@@ -18,7 +18,8 @@ img {
     border-width: 5px;
     border-color: rgb(128, 126, 126);
     border-style: solid;
-    position: relative; bottom: 200px; left: 100px;
+    position: relative; bottom: 219px; left: 100.7px;
+   
      
 }
 
@@ -94,4 +95,15 @@ p{
 
 .last {
 
+}
+    
+.line { 
+    padding-left: 1px;
+ 
+     background-color: gainsboro; position: relative; left: 20px; margin-right: 20.4px; 
+    
+}
+
+footer {
+    
 }
