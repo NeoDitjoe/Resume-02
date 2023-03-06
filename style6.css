@@ -84,7 +84,7 @@ p{
 }
 
 #container {
-    display: flex;
+    display: flex; 
 }
 
 #main {
@@ -93,9 +93,6 @@ p{
 }
 
 
-.last {
-
-}
     
 .line { 
     padding-left: 1px;
@@ -104,6 +101,3 @@ p{
     
 }
 
-footer {
-    
-}
