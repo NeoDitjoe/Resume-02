@@ -104,3 +104,8 @@ p{
 button {
     background-color: rgba(0, 0, 255, 0.526);
 }
+
+aside {
+    background: gray url('Images/banner2.jpg');
+    
+}
