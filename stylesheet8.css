@@ -1,0 +1,140 @@
+* {
+    text-overflow: ellipsis;
+    overflow: hiden;
+}
+
+#container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(128, 128, 128, 0.132);
+    border:solid;
+    border-width: 4px;
+    border-color:rgb(90, 90, 90);
+}
+
+.blue { 
+    background-image: url('Images/banner7\,1.jpg');
+    margin: 5px;
+    width: 390px;
+    position: relative; right: 45px;
+    height: 750px;
+
+}
+
+.blues {
+    position: relative; bottom: 200px; left: 200px;
+}
+
+h1 {
+    color: white;
+    position: relative; top: 500px; right: 55px;
+    font-size: 80px;
+}
+
+.ditjoe{
+    color: blue;
+    position: relative; right: 37px;
+}
+
+
+
+img {
+    width: 275px;
+    height: 275px;
+    border-radius: 200px;
+    border-width: 5px;
+    border-color: rgba(0, 0, 255, 0.436);
+    border-style: solid;
+    position: relative; bottom: 80px; right: 30px;    
+}
+
+.links {
+    position: relative; bottom: 50px;
+}
+
+a {
+    color: blue;
+}
+
+h2 {
+    background-color:  gainsboro;
+    width: 700px;
+    text-align: center;
+    
+    
+
+}
+
+.row2 {
+
+    position: relative; right: 100px;
+    text-align: centr;
+}
+
+h3 {
+    padding-left: 10px;
+    color: white;
+    background-color:  gainsboro;
+}
+
+p{
+    position: relative; left: 30px;
+}
+
+.Q2 {
+    background-color: gainsboro; position: relative; left: 25.6px; margin-right: 20.4px; 
+}
+
+.skills{
+
+    width: 29.8px;
+    position: relative; right: 170px;
+    
+}
+
+@media only screen and (max-width:431px){
+    img{
+        position: relative; bottom: 280px; left: -10px;
+    }
+
+    .last {
+        position: relative; top: 800px;
+    }
+
+    .education {
+        position: relative; right: 30px;
+     }
+
+    .experience {
+        position: relative; bottom: 853px; left: 270px;
+
+    }
+    
+    .skills{
+        position: relative; right: 295px; top: 40px;
+    }
+
+    footer{
+        position: relative; bottom: 240px; 
+    
+    }
+
+    .Q2 {
+    
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+    
+    body {
+        border:solid;
+        border-color: blueviolet;
+    }
+    
+    
+}
