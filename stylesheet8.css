@@ -1,17 +1,11 @@
 * {
-    text-overflow: ellipsis;
-    overflow: hiden;
+  
 }
 
 #container {
     display: flex; 
     flex-direction: row;
-    justify-content: space-around;
-     
-        box-sizing: border-box;
-        width: 
-        height: 100px; 
-        border: 1px solid black;
+    justify-content: space-around;   
       
 }
 
@@ -20,10 +14,7 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(128, 128, 128, 0.132);
-    border:solid;
-    border-width: 2px;
-    border-color:rgb(0, 0, 0);
-    
+
 }
 
 .blue { 
@@ -79,6 +70,10 @@ h2 {
 
 }
 
+.h22 {
+    background-color: gainsboro; width: 230px;
+}
+
 .row2 {
 
     position: relative; right: 100px;
@@ -114,9 +109,19 @@ button{
     background-color: rgba(0, 0, 255, 0.526);
 }
 
+.forms {
+    background-color: gainsboro; width: 230px;
+
+} 
+
+.details{
+    position: relative; top: 235px;
+}
+
 
 
 @media only screen and (max-width:431px){
+
     .blue{
         height:250px;
         padding-right: 230px;
@@ -154,11 +159,22 @@ button{
         
     }
     .details {
-        position: relative; left: 240px; bottom: 158px;
+        position: relative;left: 240px;
     }
 
+    .linked {
+        position: relative; bottom: 390px;
+
+    }
+
+    .forms {
+        position: relative; bottom: 395px;
+        
+    }
+
+
     .email {
-        position: relative;left: 270px; bottom: 135px;
+        position: relative;left: 270px; bottom: 535px;
     }
 
     .Q2 {
@@ -167,3 +183,128 @@ button{
     
 
 }    
+
+@media only screen and (min-width:2560px){
+    .blue { 
+        background-image: url('Images/banner7\,1.jpg');
+        background-size: cover;
+        margin: 5px;
+        width: 800px;
+        position: relative; right: 100px;
+        height: 1601px;
+    
+    }
+
+    img{
+        width: 600px;
+        height: 600px;
+        border-radius: 100%;
+        border-width: 13px;
+        position: relative;bottom: 470px; left: 40px;
+    }
+
+    h1 {
+        font-size: 150px;
+        position: relative; top: 770px;
+    }
+
+    .intro {
+        font-size: 35px;
+        
+        position: relative;
+        top: 640px; left: -150px;
+    }
+
+    .links {
+        font-size: 35px;
+        position: relative; left: 37px;
+    }
+
+    .row2 {
+        transform:scale(1.2);
+        position: relative; top: 160px; right: 190px;
+               
+    }
+    p{
+        font-size: 25px;
+    }
+    h2 , h3 {
+        font-size: 40px;
+    }
+
+    h2 {
+        width: 1046px;
+    }
+
+    .h22 {
+        width: 350px;
+    }
+
+    ul{
+        font-size: 25px;
+    }
+
+    .row3{
+           
+        position: relative; right: 260px; top: 7px;
+    }
+    .email {
+        font-size: 30px
+    }
+
+    .details{
+        position: relative;top: 217px;
+        
+
+    }
+
+    .form {
+        font-size: 27px;
+    }
+
+    .forms{
+        width: 340px;
+    }
+    
+   .body {
+      margin-right: 100px;
+      
+   }
+
+   .sk2 {
+    font-size: 32px;
+
+   }
+
+   .linked {
+    font-size: 32px;
+   }
+   
+
+
+}
+
+@media only screen and (max-width:800) and(max-width:1024px){
+    .row3{
+        position: relative;top: 800px;
+    }
+
+    .row2{
+        position: relative; right: 20px;
+    }
+
+    .blue{
+        position: relative; right: 0;
+    }
+    img {
+        position: relative; right: 170px; top: 1px;
+        width: 200px;
+        height: 200px;
+    }
+
+    h1{
+        font-size: 50px;
+        position: relative; bottom: 10px;
+    }
+
+}
