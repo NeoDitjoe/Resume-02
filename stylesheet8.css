@@ -284,7 +284,7 @@ button{
 
 }
 
-@media only screen and (max-width:800) and(max-width:1024px){
+@media only screen and  (min-width:1024px){
     .row3{
         position: relative;top: 800px;
     }
