@@ -96,7 +96,7 @@ p{
 }
 
 .Q2 {
-    background-color: gainsboro; position: relative; left: 25.6px; margin-right: 20.4px; 
+    background-color: gainsboro; position: relative; left: 23px; margin-right: 20.4px; 
 }
 
 .row3{
@@ -160,5 +160,10 @@ button{
     .email {
         position: relative;left: 270px; bottom: 135px;
     }
+
+    .Q2 {
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+    
 
 }    
