@@ -124,7 +124,7 @@ button{
 
 
 
-@media only screen and (max-width:430px){
+@media only screen and (min-width:411px) and (max-width:490px){
 
     .blue{
         height:250px;
@@ -154,40 +154,48 @@ button{
         font-size: 10px;
     }
     .row2{
+        font-size: 180%;
         transform: scale(0.55);
-        position: relative; right: 185px; top: 85px;
+        position: relative; right: 185px; bottom:197px;
     }
 
     .row3 {
+        font-size: 123%;
         transform: scale(0.55);
-        position: relative; right: 735px; top: 490px;
+        position: relative; right: 735px; top: 907px;
         
     }
     .details {
-        position: relative;left: 240px;
+        position: relative;left: 240px; 
     }
 
     .linked {
-        position: relative; bottom: 390px;
+        position: relative; bottom: 428.3px;
 
     }
 
     .forms {
-        position: relative; bottom: 395px;
+        position: relative; bottom: 428.3px;
         
     }
 
 
     .email {
-        position: relative;left: 270px; bottom: 535px;
+        position: relative;left: 270px; bottom: 571px;
     }
 
     .Q2 {
         background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
     }
 
-    
-    
+    body {
+        height: 1500px;
+    }
+
+    p {
+        max-width: 22em;
+    }
+
 
 }    
 
