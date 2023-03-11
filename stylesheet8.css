@@ -420,6 +420,7 @@ button{
 
 @media only screen and (min-width:768px) and (max-width:1000px){
 
+
     .blue{
         height:265px;
         padding-right: 600px;
@@ -428,7 +429,7 @@ button{
         background-image: url(Images/banner1.jpg);
 
         width: 140px;
-
+       
 
     }
 
@@ -455,9 +456,10 @@ button{
     }
 
     .intro {
+        
         position: relative; top: 170px; left: 260px; color: white;
         font-size:13px;
-        width: 500px;
+        white-space: nowrap;
     }
     .row2{
       
