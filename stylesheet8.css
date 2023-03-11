@@ -507,3 +507,44 @@ button{
     
 
 }   
+
+@media only screen and (max-width:321px){
+    #container {
+        transform: scale(0.84);
+        position: relative;bottom: 60px;
+
+    }
+
+    body{
+        height:583px;
+    }
+
+}  
+
+@media only screen and (min-widtpx) and (max-width:396px) {
+    #container {
+        transform: scale(0.93);
+        position: relative;bottom:27px;
+        
+
+    }
+
+    body{
+        height:707px;
+    }
+
+} 
+
+@media only screen and (max-width:362px){
+    #container {
+        transform: scale(0.93);
+        position: relative;bottom:27px;
+        
+
+    }
+
+    body{
+        height:707px;
+    }
+
+} 
