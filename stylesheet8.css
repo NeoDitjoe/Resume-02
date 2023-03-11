@@ -14,6 +14,8 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(128, 128, 128, 0.132);
+    border: solid;
+   
 
 }
 
@@ -120,7 +122,7 @@ button{
 
 
 
-@media only screen and (max-width:431px){
+@media only screen and (max-width:430px){
 
     .blue{
         height:250px;
@@ -180,11 +182,84 @@ button{
     .Q2 {
         background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
     }
+
+    
     
 
 }    
 
-@media only screen and (min-width:2560px){
+@media only screen and (max-width:376px){
+    
+    body {
+        height: 700px;
+    }
+
+    .blue{
+        height:250px;
+        padding-right: 230px;
+        position: relative;left: 365px; bottom: 15px;
+        transform: scale(0.9);
+
+    }
+
+    h1 {
+        font-size: 50px;
+        position: relative; top: 202px; left: 40px
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
+        position: relative;bottom: 25px; right: 180px;
+    }
+    
+    .links{
+        position: relative; bottom: 237.9px;
+    }
+
+    .intro {
+        position: relative; top: 170px; left: 5px; color: white;
+        font-size: 10px;
+    }
+    .row2{
+        transform: scale(0.5);
+        position: relative; right: 185px; top: 31px;
+    }
+
+    .row3 {
+        transform: scale(0.5);
+        position: relative; right: 715px; top: 400px;
+        
+    }
+    .details {
+        position: relative;left: 240px;
+    }
+
+    .linked {
+        position: relative; bottom: 390px;
+
+    }
+
+    .forms {
+        position: relative; bottom: 395px;
+        
+    }
+
+
+    .email {
+        position: relative;left: 270px; bottom: 511.5px;
+    }
+
+    .Q2 {
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+
+    
+    
+
+}  
+
+@media only screen and (min-width:2510px){
     .blue { 
         background-image: url('Images/banner7\,1.jpg');
         background-size: cover;
@@ -295,6 +370,7 @@ button{
 
     .blue{
         position: relative; right: 0;
+        background-size: cover;
     }
     img {
         position: relative; right: 170px; top: 1px;
@@ -324,14 +400,104 @@ button{
     }
 
     .details {
-        position: relative; left: 420px; top: -158.9px;
+        position: relative; left: 420px; top: -158.8px;
     }
 
     .email {
-        position: relative; left: 400px; top: -125px;
+        position: relative; left: 400px; top: -110px;
     }
 
     .Q2 {
         background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
     }
 }
+
+@media only screen and (min-width:768px) and (max-width:1000px){
+
+    .blue{
+        height:265px;
+        padding-right: 600px;
+        position: relative;left: 365px;
+        
+        background-image: url(Images/banner1.jpg);
+
+        width: 140px;
+
+
+    }
+
+    h1 {
+        font-size: 50px;
+        position: relative; top: 160px; left: 300px
+    }
+
+    img{
+        border-color: rgba(226, 226, 26, 0.948);
+        width: 150px;
+        height: 150px;
+        position: relative;bottom: 25px; right: 180px;
+    }
+    
+    .links{
+        position: relative; bottom: 237.9px;
+        color: white;
+    }
+
+    .ditjoe {
+        color:  rgba(226, 226, 26, 0.948);
+        position: relative; left: 1px; 
+    }
+
+    .intro {
+        position: relative; top: 170px; left: 260px; color: white;
+        font-size:13px;
+        width: 500px;
+    }
+    .row2{
+      
+        transform: scale(1);
+        position: relative; right: 363px; top: 265px;
+    }
+
+    
+
+    .row3 {
+        transform: scale();
+        position: relative; right: 1064px; top: 1010px;
+        
+    }
+    .details {
+        position: relative;left: 240px;
+    }
+
+    .linked {
+        position: relative; bottom: 390px; 
+        font-size: 15px;
+
+    }
+
+    .forms {
+        position: relative; bottom: 395px;
+        
+    }
+
+
+    .email {
+        position: relative;left: 270px; bottom: 512px;
+    }
+
+    .Q2 {
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+
+    body {
+        height: 1220px;
+    
+    }
+
+    a {
+        color: rgba(226, 226, 26, 0.948);
+    }
+    
+
+}   
