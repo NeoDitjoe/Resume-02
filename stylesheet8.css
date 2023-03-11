@@ -89,7 +89,9 @@ h3 {
 }
 
 p{
-    position: relative; left: 30px;
+    position: relative; left:4% ;
+    max-width: 40em;
+
 }
 
 .Q2 {
@@ -128,6 +130,7 @@ button{
         height:250px;
         padding-right: 230px;
         position: relative;left: 365px;
+        background-position-y: 37%;
 
     }
 
@@ -271,6 +274,8 @@ button{
     }
 
     img{
+        position: absolute;
+        z-index: 1;
         width: 600px;
         height: 600px;
         border-radius: 100%;
@@ -354,7 +359,10 @@ button{
    .linked {
     font-size: 32px;
    }
-   
+
+   .Q2 {
+    background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+   }  
 
 
 }
@@ -396,15 +404,15 @@ button{
     }
 
     .row3 {
-        position: relative; right:974px; top: 750px;
+        position: relative; right:968px; top: 750px;
     }
 
     .details {
-        position: relative; left: 420px; top: -158.8px;
+        position: relative; left: 380px; top: -158.8px;
     }
 
     .email {
-        position: relative; left: 400px; top: -110px;
+        position: relative; left: 390px; top: -110px;
     }
 
     .Q2 {
@@ -416,6 +424,21 @@ button{
 
     }
 
+}
+
+@media only screen and (min-width:1410px) and (max-width:1441px){
+    .Q2 {
+        
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+
+    h3 {
+        padding-left: 4%;
+    }
+
+    img {
+        z-index: 1;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:1000px){
@@ -459,7 +482,7 @@ button{
         
         position: relative; top: 170px; left: 260px; color: white;
         font-size:13px;
-        white-space: nowrap;
+        white-space:nowrap;
     }
     .row2{
       
