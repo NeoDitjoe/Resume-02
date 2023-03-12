@@ -122,7 +122,165 @@ button{
     position: relative; top: 235px;
 }
 
+@media only screen and (min-width:305px) and (max-width:360px){
 
+    #container {
+        transform: scale(0.40);
+        position: relative; left: 7.7%; top: 13.3%;
+    }
+ 
+    body {
+        height: 1893px;
+    }
+
+    .blue{
+        background-size: cover;
+        background-position-y: 39.1%;
+        height:750px;
+        padding-right: 320px;
+        position: relative;left: 310px; bottom: 3100px;
+      
+
+    }
+
+    h1 {
+        transform: scale(0.74);
+        font-size: 109px;
+        position: relative; top: 240px; left: 220px
+    }
+
+    img{
+        width: 380px;
+        height: 380px;
+        position: relative;bottom: 310px; right: 180px;
+    }
+    
+    .links{
+        position: relative; bottom: 420px; left: 10px;
+        font-size: 250%;
+    }
+
+    .intro {
+        position: relative; top: 170px; color: white;
+        font-size: 30px;
+        white-space: nowrap;
+        transform: scale(1.3);
+    }
+    .row2{
+        font-size: 250%;
+        position: relative; right: 400px; bottom: 2365px;
+    }
+
+    .row3 {
+        font-size: 220%;
+        position: relative; right: 1100px; top: 910px;
+        
+    }
+    .details {
+        position: relative;left: 340px;
+    }
+
+    .linked {
+        position: relative; bottom: 578px;
+
+    }
+
+    .forms {
+        position: relative; bottom: 580px; right:40px ;
+        white-space: nowrap;
+        background-color: gainsboro;width: 400px;
+        
+    }
+
+
+    .email {
+        font-size: 40px;
+        position: relative; right: 40px; bottom: 620px;
+    }
+
+    input , select , button, textarea {
+        font-size: 30px;
+    }
+
+    .Q2 {
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+
+    
+    
+
+}  
+
+@media only screen and (min-width:405) and (max-width:411px){
+    
+    body {
+        height: 700px;
+    }
+
+    .blue{
+        height:250px;
+        padding-right: 230px;
+        position: relative;left: 365px; bottom: 15px;
+        transform: scale(0.9);
+
+    }
+
+    h1 {
+        font-size: 50px;
+        position: relative; top: 202px; left: 40px
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
+        position: relative;bottom: 25px; right: 180px;
+    }
+    
+    .links{
+        position: relative; bottom: 237.9px;
+    }
+
+    .intro {
+        position: relative; top: 170px; left: 5px; color: white;
+        font-size: 10px;
+    }
+    .row2{
+        transform: scale(0.5);
+        position: relative; right: 185px; top: 31px;
+    }
+
+    .row3 {
+        transform: scale(0.5);
+        position: relative; right: 715px; top: 400px;
+        
+    }
+    .details {
+        position: relative;left: 240px;
+    }
+
+    .linked {
+        position: relative; bottom: 390px;
+
+    }
+
+    .forms {
+        position: relative; bottom: 395px;
+        
+    }
+
+
+    .email {
+        position: relative;left: 270px; bottom: 511.5px;
+    }
+
+    .Q2 {
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+
+    
+    
+
+}  
 
 @media only screen and (min-width:411px) and (max-width:490px){
 
@@ -197,28 +355,30 @@ button{
     }
 
 
-}    
+}
 
-@media only screen and (max-width:376px){
-    
-    body {
-        height: 700px;
-    }
+@media only screen and (min-width:738px) and (max-width:1000px){
+
 
     .blue{
-        height:250px;
-        padding-right: 230px;
-        position: relative;left: 365px; bottom: 15px;
-        transform: scale(0.9);
+        height:265px;
+        padding-right: 600px;
+        position: relative;left: 365px;
+        
+        background-image: url(Images/banner1.jpg);
+
+        width: 140px;
+       
 
     }
 
     h1 {
         font-size: 50px;
-        position: relative; top: 202px; left: 40px
+        position: relative; top: 160px; left: 300px
     }
 
     img{
+        border-color: rgba(226, 226, 26, 0.948);
         width: 150px;
         height: 150px;
         position: relative;bottom: 25px; right: 180px;
@@ -226,20 +386,31 @@ button{
     
     .links{
         position: relative; bottom: 237.9px;
+        color: white;
+    }
+
+    .ditjoe {
+        color:  rgba(226, 226, 26, 0.948);
+        position: relative; left: 1px; 
     }
 
     .intro {
-        position: relative; top: 170px; left: 5px; color: white;
-        font-size: 10px;
+        
+        position: relative; top: 170px; left: 260px; color: white;
+        font-size:13px;
+        white-space:nowrap;
     }
     .row2{
-        transform: scale(0.5);
-        position: relative; right: 185px; top: 31px;
+      
+        transform: scale(1);
+        position: relative; right: 363px; top: 265px;
     }
 
+    
+
     .row3 {
-        transform: scale(0.5);
-        position: relative; right: 715px; top: 400px;
+        transform: scale();
+        position: relative; right: 1064px; top: 1010px;
         
     }
     .details {
@@ -247,7 +418,8 @@ button{
     }
 
     .linked {
-        position: relative; bottom: 390px;
+        position: relative; bottom: 390px; 
+        font-size: 15px;
 
     }
 
@@ -258,17 +430,98 @@ button{
 
 
     .email {
-        position: relative;left: 270px; bottom: 511.5px;
+        position: relative;left: 270px; bottom: 512px;
     }
 
     .Q2 {
         background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
     }
 
+    body {
+        height: 1220px;
     
+    }
+
+    a {
+        color: rgba(226, 226, 26, 0.948);
+    }
     
 
 }  
+
+@media only screen and  (min-width:1024px) and (max-width:1030px){
+    .row3{
+        position: relative;top: 800px;
+    }
+
+    .row2{
+        position: relative; right: 20px;
+    }
+
+    .blue{
+        position: relative; right: 0;
+        background-size: cover;
+    }
+    img {
+        position: relative; right: 170px; top: 1px;
+        width: 200px;
+        height: 200px;
+    }
+
+    h1{
+        font-size: 50px;
+        position: relative; top: 420px; right: 115px;
+    }
+
+    .intro {
+        position: relative; top: 375px; left: -190px;
+    }
+
+    .links {
+        position: relative;top: 10px;
+    }
+
+    .row2 {
+        position: relative; left: 16px;
+    }
+
+    .row3 {
+        position: relative; right:968px; top: 750px;
+    }
+
+    .details {
+        position: relative; left: 380px; top: -158.8px;
+    }
+
+    .email {
+        position: relative; left: 390px; top: -110px;
+    }
+
+    .Q2 {
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+
+    body {
+        height: 960px;
+
+    }
+
+}
+
+@media only screen and (min-width:1410px) and (max-width:1441px){
+    .Q2 {
+        
+        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
+    }
+
+    h3 {
+        padding-left: 4%;
+    }
+
+    img {
+        z-index: 1;
+    }
+}
 
 @media only screen and (min-width:2510px){
     .blue { 
@@ -375,209 +628,10 @@ button{
 
 }
 
-@media only screen and  (min-width:1024px) and (max-width:1030px){
-    .row3{
-        position: relative;top: 800px;
-    }
 
-    .row2{
-        position: relative; right: 20px;
-    }
-
-    .blue{
-        position: relative; right: 0;
-        background-size: cover;
-    }
-    img {
-        position: relative; right: 170px; top: 1px;
-        width: 200px;
-        height: 200px;
-    }
-
-    h1{
-        font-size: 50px;
-        position: relative; top: 420px; right: 115px;
-    }
-
-    .intro {
-        position: relative; top: 375px; left: -190px;
-    }
-
-    .links {
-        position: relative;top: 10px;
-    }
-
-    .row2 {
-        position: relative; left: 16px;
-    }
-
-    .row3 {
-        position: relative; right:968px; top: 750px;
-    }
-
-    .details {
-        position: relative; left: 380px; top: -158.8px;
-    }
-
-    .email {
-        position: relative; left: 390px; top: -110px;
-    }
-
-    .Q2 {
-        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
-    }
-
-    body {
-        height: 960px;
-
-    }
-
-}
-
-@media only screen and (min-width:1410px) and (max-width:1441px){
-    .Q2 {
-        
-        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
-    }
-
-    h3 {
-        padding-left: 4%;
-    }
-
-    img {
-        z-index: 1;
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width:1000px){
+ 
 
 
-    .blue{
-        height:265px;
-        padding-right: 600px;
-        position: relative;left: 365px;
-        
-        background-image: url(Images/banner1.jpg);
-
-        width: 140px;
-       
-
-    }
-
-    h1 {
-        font-size: 50px;
-        position: relative; top: 160px; left: 300px
-    }
-
-    img{
-        border-color: rgba(226, 226, 26, 0.948);
-        width: 150px;
-        height: 150px;
-        position: relative;bottom: 25px; right: 180px;
-    }
-    
-    .links{
-        position: relative; bottom: 237.9px;
-        color: white;
-    }
-
-    .ditjoe {
-        color:  rgba(226, 226, 26, 0.948);
-        position: relative; left: 1px; 
-    }
-
-    .intro {
-        
-        position: relative; top: 170px; left: 260px; color: white;
-        font-size:13px;
-        white-space:nowrap;
-    }
-    .row2{
-      
-        transform: scale(1);
-        position: relative; right: 363px; top: 265px;
-    }
-
-    
-
-    .row3 {
-        transform: scale();
-        position: relative; right: 1064px; top: 1010px;
-        
-    }
-    .details {
-        position: relative;left: 240px;
-    }
-
-    .linked {
-        position: relative; bottom: 390px; 
-        font-size: 15px;
-
-    }
-
-    .forms {
-        position: relative; bottom: 395px;
-        
-    }
 
 
-    .email {
-        position: relative;left: 270px; bottom: 512px;
-    }
 
-    .Q2 {
-        background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
-    }
-
-    body {
-        height: 1220px;
-    
-    }
-
-    a {
-        color: rgba(226, 226, 26, 0.948);
-    }
-    
-
-}   
-
-@media only screen and (max-width:321px){
-    #container {
-        transform: scale(0.84);
-        position: relative;bottom: 60px;
-
-    }
-
-    body{
-        height:583px;
-    }
-
-}  
-
-@media only screen and (min-widtpx) and (max-width:396px) {
-    #container {
-        transform: scale(0.93);
-        position: relative;bottom:27px;
-        
-
-    }
-
-    body{
-        height:707px;
-    }
-
-} 
-
-@media only screen and (max-width:362px){
-    #container {
-        transform: scale(0.93);
-        position: relative;bottom:27px;
-        
-
-    }
-
-    body{
-        height:707px;
-    }
-
-} 
