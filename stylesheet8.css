@@ -33,7 +33,7 @@ body{
 }
 
 h1 {
-    color: white;
+    color: rgb(69, 66, 66);
     position: relative; top: 500px; right: 55px;
     font-size: 80px;
 }
@@ -624,8 +624,32 @@ button{
     background-color: gainsboro; position: relative; left: 0px; margin-right: 0px; 
    }  
 
+    @keyframes slideinleft {
+        from{
+            transform: translatex(2600px);
+        }
+
+        to{
+            transform: translateX(0);
+        }
+    }
+
+    .blue {
+        animation-name: slideinleft;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+
+    
+         
+    }
+
 
 }
+
 
 
  
